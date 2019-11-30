@@ -1,0 +1,90 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+SparkConf	../count-words.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:2
+SparkConf	../customer-expense.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:1
+SparkConf	../friends-by-age.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:1
+SparkConf	../max-weather-by-station.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:1
+SparkConf	../min-weather-by-station.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:1
+SparkConf	../most-popular-movie-with-names.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:1
+SparkConf	../most-popular-movie.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:2
+SparkContext	../count-words.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:2
+SparkContext	../customer-expense.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:1
+SparkContext	../friends-by-age.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:1
+SparkContext	../max-weather-by-station.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:1
+SparkContext	../min-weather-by-station.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:1
+SparkContext	../most-popular-movie-with-names.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:1
+SparkContext	../most-popular-movie.py	/^from pyspark import SparkConf, SparkContext$/;"	kind:namespace	line:2
+collections	../count-words.py	/^import collections$/;"	kind:namespace	line:3
+collections	../customer-expense.py	/^import collections$/;"	kind:namespace	line:2
+collections	../friends-by-age.py	/^import collections$/;"	kind:namespace	line:2
+collections	../max-weather-by-station.py	/^import collections$/;"	kind:namespace	line:2
+collections	../min-weather-by-station.py	/^import collections$/;"	kind:namespace	line:2
+collections	../most-popular-movie-with-names.py	/^import collections$/;"	kind:namespace	line:2
+collections	../most-popular-movie.py	/^import collections$/;"	kind:namespace	line:3
+conf	../count-words.py	/^conf = SparkConf().setMaster("local").setAppName("FriendsByAge")$/;"	kind:variable	line:9
+conf	../customer-expense.py	/^conf = SparkConf().setMaster("local").setAppName("FriendsByAge")$/;"	kind:variable	line:8
+conf	../friends-by-age.py	/^conf = SparkConf().setMaster("local").setAppName("FriendsByAge")$/;"	kind:variable	line:10
+conf	../max-weather-by-station.py	/^conf = SparkConf().setMaster("local").setAppName("FriendsByAge")$/;"	kind:variable	line:8
+conf	../min-weather-by-station.py	/^conf = SparkConf().setMaster("local").setAppName("FriendsByAge")$/;"	kind:variable	line:8
+conf	../most-popular-movie-with-names.py	/^conf = SparkConf().setMaster("local").setAppName("FriendsByAge")$/;"	kind:variable	line:4
+conf	../most-popular-movie.py	/^conf = SparkConf().setMaster("local").setAppName("FriendsByAge")$/;"	kind:variable	line:9
+count-words.py	../count-words.py	1;"	kind:file	line:1
+customer-expense.py	../customer-expense.py	1;"	kind:file	line:1
+friends-by-age.py	../friends-by-age.py	1;"	kind:file	line:1
+line	../customer-expense.py	/^line = sc.textFile("data\/customer-orders.csv")$/;"	kind:variable	line:11
+line	../friends-by-age.py	/^line = sc.textFile("social-network.data")$/;"	kind:variable	line:13
+line	../max-weather-by-station.py	/^line = sc.textFile("weather-1800.csv")$/;"	kind:variable	line:11
+line	../min-weather-by-station.py	/^line = sc.textFile("weather-1800.csv")$/;"	kind:variable	line:11
+line	../most-popular-movie-with-names.py	/^line = sc.textFile("data\/movie-ratings.data")$/;"	kind:variable	line:26
+line	../most-popular-movie.py	/^line = sc.textFile("data\/movie-ratings.data")$/;"	kind:variable	line:12
+lines	../count-words.py	/^lines = sc.textFile("sample.txt")$/;"	kind:variable	line:12
+loadMovieNames	../most-popular-movie-with-names.py	/^def loadMovieNames():$/;"	kind:function	line:8
+max-weather-by-station.py	../max-weather-by-station.py	1;"	kind:file	line:1
+min-weather-by-station.py	../min-weather-by-station.py	1;"	kind:file	line:1
+most-popular-movie-with-names.py	../most-popular-movie-with-names.py	1;"	kind:file	line:1
+most-popular-movie.py	../most-popular-movie.py	1;"	kind:file	line:1
+nameDict	../most-popular-movie-with-names.py	/^nameDict = sc.broadcast(loadMovieNames())$/;"	kind:variable	line:24
+parseLine	../count-words.py	/^def parseLine(line):$/;"	kind:function	line:5
+parseLine	../customer-expense.py	/^def parseLine(line):$/;"	kind:function	line:4
+parseLine	../friends-by-age.py	/^def parseLine(line):$/;"	kind:function	line:4
+parseLine	../max-weather-by-station.py	/^def parseLine(line):$/;"	kind:function	line:4
+parseLine	../min-weather-by-station.py	/^def parseLine(line):$/;"	kind:function	line:4
+parseLine	../most-popular-movie-with-names.py	/^def parseLine(line):$/;"	kind:function	line:18
+parseLine	../most-popular-movie.py	/^def parseLine(line):$/;"	kind:function	line:5
+rdd	../count-words.py	/^rdd = rdd.map(lambda (x,y): (y,x)).sortByKey()$/;"	kind:variable	line:16
+rdd	../count-words.py	/^rdd = rdd.reduceByKey(lambda x,y:x+y)$/;"	kind:variable	line:15
+rdd	../count-words.py	/^rdd = words.map(lambda x: (x,1))$/;"	kind:variable	line:14
+rdd	../customer-expense.py	/^rdd = line.map(parseLine)$/;"	kind:variable	line:12
+rdd	../customer-expense.py	/^rdd = rdd.reduceByKey(lambda x,y: x+y)$/;"	kind:variable	line:13
+rdd	../friends-by-age.py	/^rdd = line.map(parseLine)$/;"	kind:variable	line:14
+rdd	../friends-by-age.py	/^rdd = rdd.mapValues(lambda x: (x,1))$/;"	kind:variable	line:15
+rdd	../friends-by-age.py	/^rdd = rdd.mapValues(lambda x: x[0]\/x[1])$/;"	kind:variable	line:17
+rdd	../friends-by-age.py	/^rdd = rdd.reduceByKey(lambda x,y : (x[0] + y[0], x[1] + y[1]))$/;"	kind:variable	line:16
+rdd	../max-weather-by-station.py	/^rdd = line.map(parseLine)$/;"	kind:variable	line:12
+rdd	../max-weather-by-station.py	/^rdd = rdd.filter(lambda x: "TMAX" in x[1]).map(lambda x: (x[0], x[2]))$/;"	kind:variable	line:13
+rdd	../max-weather-by-station.py	/^rdd = rdd.reduceByKey(lambda x,y: max(x,y))$/;"	kind:variable	line:14
+rdd	../min-weather-by-station.py	/^rdd = line.map(parseLine)$/;"	kind:variable	line:12
+rdd	../min-weather-by-station.py	/^rdd = rdd.filter(lambda x: x[1]=="TMIN").map(lambda x: (x[0], x[2]))$/;"	kind:variable	line:13
+rdd	../min-weather-by-station.py	/^rdd = rdd.reduceByKey(lambda x,y: min(x,y))$/;"	kind:variable	line:14
+rdd	../most-popular-movie.py	/^        .sortByKey(False) $/;"	kind:variable	line:17
+result	../count-words.py	/^result = rdd.collect()$/;"	kind:variable	line:18
+result	../customer-expense.py	/^result = rdd.collect()$/;"	kind:variable	line:15
+result	../friends-by-age.py	/^result = rdd.collect()$/;"	kind:variable	line:18
+result	../max-weather-by-station.py	/^result = rdd.collect()$/;"	kind:variable	line:16
+result	../min-weather-by-station.py	/^result = rdd.collect()$/;"	kind:variable	line:16
+result	../most-popular-movie-with-names.py	/^result = sortedMoviesWithNames.take(10)$/;"	kind:variable	line:37
+result	../most-popular-movie.py	/^result = rdd.take(1)$/;"	kind:variable	line:22
+sc	../count-words.py	/^sc = SparkContext(conf = conf)$/;"	kind:variable	line:10
+sc	../customer-expense.py	/^sc = SparkContext(conf = conf)$/;"	kind:variable	line:9
+sc	../friends-by-age.py	/^sc = SparkContext(conf = conf)$/;"	kind:variable	line:11
+sc	../max-weather-by-station.py	/^sc = SparkContext(conf = conf)$/;"	kind:variable	line:9
+sc	../min-weather-by-station.py	/^sc = SparkContext(conf = conf)$/;"	kind:variable	line:9
+sc	../most-popular-movie-with-names.py	/^sc = SparkContext(conf = conf)$/;"	kind:variable	line:5
+sc	../most-popular-movie.py	/^sc = SparkContext(conf = conf)$/;"	kind:variable	line:10
+sortedMovies	../most-popular-movie-with-names.py	/^        .sortByKey(False) $/;"	kind:variable	line:31
+sortedMoviesWithNames	../most-popular-movie-with-names.py	/^sortedMoviesWithNames = sortedMovies.map(lambda (count, movie): (nameDict.value[movie], count))$/;"	kind:variable	line:34
+words	../count-words.py	/^words = lines.flatMap(lambda x: x.replace('.', '').split(' '))$/;"	kind:variable	line:13

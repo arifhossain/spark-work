@@ -20,7 +20,7 @@ def parseLine(line):
     return (int(fields[1]))
 
 
-# broadcast all movie names to all nodes
+# broadcast all movie names to all nodes. this will be a read-only cached copy on each node
 nameDict = sc.broadcast(loadMovieNames())
 
 line = sc.textFile("data/movie-ratings.data")
